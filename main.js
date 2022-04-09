@@ -6,11 +6,6 @@ leftWristX = 0;
 rightWristY = 0;
 
 function setup() {
-    video = createCapture(VIDEO);
-    video.size(550, 600);
-    video.position(10, 60);
-
-
     canvas = createCanvas(600, 440);
     canvas.position(600, 130);
 
